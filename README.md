@@ -21,7 +21,7 @@ This project focuses on practicing **HTML forms**, **CSS styling**, and implemen
 
 ## Preview
 
-![Screenshot of the form](screenshot.png) <!-- Replace with actual screenshot path once available -->
+![Screenshot of the form](screenshot.png) Coming soon!
 
 ## Getting Started
 
