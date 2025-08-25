@@ -1,5 +1,69 @@
+@font-face {
+  font-family: "Odin";
+  src: url("assets/Norse-Bold.otf");
+}
+
 html {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
   font-size: 106.25%;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* left side styles */
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vw;
+  height: 100vh;
+  background-image: url("assets/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  height: 15vh;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+#odin-logo {
+  height: 130px;
+}
+
+h1 {
+  font-family: "Odin";
+  color: white;
+  font-size: 6rem;
+}
+
+.credits {
+  color: white;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.credits > a {
+  color: white;
+}
+
+/* right side styles */
+
+.right-side {
+  width: 60vw;
+}
+.form-section {
+  height: 300px;
+  border: solid black;
 }

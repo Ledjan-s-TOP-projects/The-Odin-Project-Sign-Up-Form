@@ -31,5 +31,3 @@ Clone this repository and open the `index.html` file in your browser:
 git clone https://github.com/your-username/sign-up-form.git
 cd sign-up-form
 ```
-
-Photo by <a href="https://unsplash.com/@theforestbirds?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joel & Jasmin Førestbird</a> on <a href="https://unsplash.com/photos/person-hiking-above-mountain-overlooking-river-znoL1m6MD_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
