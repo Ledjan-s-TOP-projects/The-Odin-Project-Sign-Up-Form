@@ -39,33 +39,77 @@
 
       <div class="form-section">
         <h2>Let's do this!</h2>
+
         <form action="#" method="post">
           <div class="row-1">
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" name="first_name" id="first_name" />
+            <div class="field">
+              <label for="first_name">FIRST NAME</label>
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                required
+                pattern="[A-Za-zÀ-ÿ\s\-]+"
+                title="Only letters, spaces, and hyphens allowed"
+              />
+            </div>
 
-            <label for="last_name">LAST NAME</label>
-            <input type="text" name="last_name" id="last_name" />
+            <div class="field">
+              <label for="last_name">LAST NAME</label>
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                required
+                pattern="[A-Za-zÀ-ÿ\s\-]+"
+                title="Only letters, spaces, and hyphens allowed"
+              />
+            </div>
           </div>
 
           <div class="row-2">
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
+            <div class="field">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
 
-            <label for="phone_number">PHONE NUMBER</label>
-            <input type="number" name="phone_number" id="phone_number" />
+            <div class="field">
+              <label for="phone_number">PHONE NUMBER</label>
+              <input
+                type="number"
+                name="phone_number"
+                id="phone_number"
+                required
+                pattern="[\+0-9\s\-()]{9,20}"
+                title="Use digits, spaces, dashes, or parentheses"
+              />
+            </div>
           </div>
 
           <div class="row-3">
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" />
+            <div class="field">
+              <label for="password">PASSWORD</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                title="Minimum 8 characters, at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character"
+              />
+            </div>
 
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input
-              type="confirm_password"
-              name="confirm_password"
-              id="confirm_password"
-            />
+            <div class="field">
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm_password"
+                id="confirm_password"
+                required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                title="Minimum 8 characters, at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character"
+              />
+            </div>
           </div>
         </form>
       </div>
